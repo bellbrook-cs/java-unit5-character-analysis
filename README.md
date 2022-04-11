@@ -1,10 +1,66 @@
-# Template Assignment
+# Character Analysis
 
 ## Problem Statement
 
+Write a program that will prompt the user for a SINGLE CHARACTER and then provide:
+
+• A description of the character:
+   o is a lower-case letter.
+   o is an upper-case letter.
+   o is a number.
+   o is white space.
+   o is a special character.
+• The decimal value of the character on the ASCII table.
+• The equivalent of the decimal values as:
+   o a binary number.
+   o a hexadecimal number.
+   o an octal number.
+   o a random (3-25) base number.
+
 ## Input Description
 
+Your program must:
+• continue to ask the user for single characters and provide the analysis for each until the
+user enters the word “stop” (either upper-case or lower-case).
+• force (user-proofing) the user to enter a single character. If the user enters more than
+one character (other than the word “stop”), they should receive an error message and
+be prompted for a SINGLE character with no analysis taking place.
+• provide all information above in the EXACT format provided below.
+
 ## Sample Input/Output
+
+```
+Please enter a single character: J
+You entered the character 'J'
+The character 'J' is an upper case letter.
+The character 'J' has a value of 74 on the ASCII table.
+The number 74 is equivalent to:
+    4a as a Hexadecimal number.
+    1001010 as a Binary number.
+    112 as an Octal number.
+    68 as a base 11 number.
+Please enter a single character: $
+You entered the character '$'
+The character '$' is a special character.
+The character '$' has a value of 36 on the ASCII table.
+The number 36 is equivalent to:
+    24 as a Hexadecimal number.
+    100100 as a Binary number.
+    44 as an Octal number.
+    22 as a base 17 number.
+Please enter a single character: 9
+You entered the character '9'
+The character '9' is a number.
+The character '9' has a value of 57 on the ASCII table.
+The number 57 is equivalent to:
+    39 as a Hexadecimal number.
+    111001 as a Binary number.
+    71 as an Octal number.
+    49 as a base 12 number.
+Please enter a single character: Hi
+Please enter a SINGLE character!
+Please enter a single character: stop
+```
 
 ## Submission
 
