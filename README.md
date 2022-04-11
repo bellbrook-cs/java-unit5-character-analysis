@@ -4,28 +4,28 @@
 
 Write a program that will prompt the user for a SINGLE CHARACTER and then provide:
 
-• A description of the character:
-   o is a lower-case letter.
-   o is an upper-case letter.
-   o is a number.
-   o is white space.
-   o is a special character.
-• The decimal value of the character on the ASCII table.
-• The equivalent of the decimal values as:
-   o a binary number.
-   o a hexadecimal number.
-   o an octal number.
-   o a random (3-25) base number.
+- A description of the character:
+   - is a lower-case letter.
+   - is an upper-case letter.
+   - is a number.
+   - is white space.
+   - is a special character.
+- The decimal value of the character on the ASCII table.
+- The equivalent of the decimal values as:
+   - a binary number.
+   - a hexadecimal number.
+   - an octal number.
+   - a random (3-25) base number.
 
 ## Input Description
 
 Your program must:
-• continue to ask the user for single characters and provide the analysis for each until the
+- continue to ask the user for single characters and provide the analysis for each until the
 user enters the word “stop” (either upper-case or lower-case).
-• force (user-proofing) the user to enter a single character. If the user enters more than
+- force (user-proofing) the user to enter a single character. If the user enters more than
 one character (other than the word “stop”), they should receive an error message and
 be prompted for a SINGLE character with no analysis taking place.
-• provide all information above in the EXACT format provided below.
+- provide all information above in the EXACT format provided below.
 
 ## Sample Input/Output
 
